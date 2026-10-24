@@ -1,0 +1,5 @@
+Objekt= input("Was hast du gekauft")
+Menge= int(input(f"Wie viele {Objekt} hast du gekauft"))
+Preis= int(input(f"Wie viel hat jeweils ein/e {Objekt} gekostet"))
+Endpreis= Preis*Menge
+print(f"Das wird {Endpreis} kosten")
